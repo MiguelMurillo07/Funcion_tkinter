@@ -54,7 +54,10 @@ frame_entrada= Frame(ventana)
 frame_entrada.config(bg="white", width=480, height=480)
 frame_entrada.place(x=10, y=10)
 
-
+#Logo
+logo= PhotoImage(file="img/logo uis.png")
+lb_logo = Label(frame_entrada, image=logo)
+lb_logo.place(x=10, y=10)
 
 # Etiqueta para el titulo de la app
 titulo = Label(frame_entrada, text= "Suma Enteros" )
